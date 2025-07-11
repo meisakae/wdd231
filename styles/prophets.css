@@ -1,0 +1,22 @@
+body {
+	font-family: Roboto, sans-serif;
+    background-color: whitesmoke;
+    color: rgb(59, 59, 175);
+}
+
+h1 {
+	text-align: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+img {
+	width: auto;
+	max-width: 325px;
+	box-shadow: 0 0 30px #777;
+	height: 200px;
+	border: 1px solid #111;
+}

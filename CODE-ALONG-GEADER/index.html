@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="facebook">
+    <meta property="og:description" content="a social networking service and website owned by Meta, where users can create profiles, connect with friends, share information, and join groups">
+    <meta property="og:image" content="https://www.facebook.com/">
+    <meta property="og:url" content="https://www.facebook.com/">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+    <script src="scripts/navigation.js" defer></script>
+
+    <link rel="icon" href="favicon.ico">
+    <title>My Site</title>
+</head>
+<body>
+    <header>
+        <img src="images/favicon.ico" alt="Site logo" width="24" height="24">
+        <span>Mei Sakae</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="layout">
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim blanditiis rem similique aspernatur officiis nulla quasi dolorum quibusdam omnis dicta sunt repellendus, corrupti vitae. Dolore sunt explicabo aut illum perspiciatis.</p>
+            </section>
+
+            <section class="photo">
+                <h2>Student Photo</h2>
+                <img src="images/studentphoto.jpg" alt="student photo" width="150" height="230">
+            </section>
+
+            <section class="web">
+                <h2>Web Certificate Courses</h2>
+                <table class="courses">
+                    <tr>
+                        <th>All</th>
+                        <th>CES</th>
+                        <th>WDD</th>
+                    </tr>
+                    <tr>
+                        <td>WDD 130</td>
+                        <td>WDD 131</td>
+                        <td>WDD 231</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        <p>The Total credits for course listed above in 6</p>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/meisakae/wdd231" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin.svg" alt="linked in" width="16" height="16"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="instagram" width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="current-year">2025</span>
+            Mei Sakae  Japan🥢
+        </p>
+        <p>Date Last Modified
+            <span id="last-Modified"></span>
+        </p>
+    </footer>
+</body>
+</html>

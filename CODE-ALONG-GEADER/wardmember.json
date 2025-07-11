@@ -1,0 +1,24 @@
+{
+    "family_name": "Imai",
+    "movi_in_data": "2022-08-16",
+    "number_of_people": 2,
+    "visitted_by_bishopric": true,
+    "family_member": [
+        {
+            "name": "Taro Imai",
+            "gender": "Male",
+            "birthdate": "1995-09-20"
+        },
+        {
+            "name": "Hana Imai",
+            "gender": "Female",
+            "birthdate": "1997-05-12"
+        },
+        {
+            "name": "Ken Imai",
+            "gender": "Male",
+            "birthdate": "2025-03-12"
+        }
+    ]
+
+}
