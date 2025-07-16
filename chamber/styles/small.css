@@ -1,0 +1,159 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 10px;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 2rem;
+    margin: 15px;
+    padding: 0;
+}
+/**** Hambuger Navigation ****/
+.hamburger {
+    background: none;
+    border: none;
+    color: #0a855c;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::after{
+    content: "\2630";
+    font-size: 2rem;
+}
+.hamburger.show::after{
+    content: "\00D7";
+}
+
+/****Navigation****/
+.navigation {
+    display: none;
+}
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation a {
+    display: block;
+    padding: 0.8rem 10px;
+    color: #0a855c;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+.navigation .current {
+    background-color: #eee;
+}
+
+.navigation a:hover {
+    background-color: #f5f57ccc;
+}
+
+.base {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 2rem;
+}
+.info {
+    margin: 10px;
+    padding: 0;
+    background-color: #c9e1d9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px;
+}
+.info img {
+    display: flex;
+    flex-direction: column;
+}
+.info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+.view {
+    text-align: center;
+    font-size: 1.2rem;
+}
+#gridbutton, #listbutton:hover {
+    margin: 8px;
+    padding: 8px;
+    color: #0a855c;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.list-view {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card {
+    background-color: #d3e5bc9f;
+    border: 1px solid #888585;
+    border-radius: 0.3rem;
+    padding: 1.2rem;
+    transition: transform 0.3s ease;
+    margin: 40px;
+    padding: 10px;
+    max-width: 320px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 0.2rem;
+    margin-bottom: 0.3rem;
+    
+}
+.card h3 {
+    font-size: 1.8rem;
+    margin: 0.3rem;
+    text-align: center;
+}
+.card p, .card a {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+    display: block;
+    text-align: center;
+}
+#members {
+    margin: 0 auto;
+    padding: 0;
+    gap: 0.0rem;
+}
+.footer-container {
+    flex-direction: column;
+    text-align: center;
+}
+.social {
+    margin: 10px;
+    padding: 5px;
+}

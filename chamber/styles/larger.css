@@ -1,0 +1,57 @@
+@media only screen and (min-width: 38rem) {
+    header, main, nav, footer {
+        margin: 0 auto;
+        padding: 0;
+    }
+    header {
+        grid-template-columns: 24px auto;
+    }
+.hamburger {
+    display: none;
+}
+.navigation {
+    display: block;
+    border-bottom: solid 1px #ddd;
+}
+.navigation ul {
+    display: flex;
+}
+.navigation a {
+    border: none;
+}
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0 auto;
+}
+.base {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 0 auto;
+    gap: 2rem;
+}
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    background-color: #f2f2f2;
+    color: black;
+}
+.social {
+    text-align: center;
+}
+.social img {
+    width: 24px;
+    height: 24px;
+    margin: 0.5rem;
+    margin-top: 50px;
+}
+}

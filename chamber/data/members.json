@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Blue Bakery",
+        "addresses": "789 N blue Ave, Milwaukee",
+        "phone": "555-1234",
+        "website URLs": "https://bluebakery.com",
+        "image": "bakery.jpg",
+        "membership": "1",
+        "category": "restrant"
+    },
+    {
+        "name": "Green Tech",
+        "addresses": "201 lake Ave, Milwaukee",
+        "phone": "230-777",
+        "website URLs": "https://greentech.com",
+        "image": "tech.jpg",
+        "membership": "2",
+        "category": "IT"
+    },
+    {
+        "name": "Sunsine Salon",
+        "addresses": "302 Main street, Miwaukee",
+        "phone": "123-444",
+        "website URLs": "https://sunsine.com",
+        "image": "salon.jpg",
+        "membership": "3",
+        "category": "buety"
+    },
+    {
+        "name": "Metro Market",
+        "addresses": "101 Cozy st, Milwaukee",
+        "phone": "444-567",
+        "website URLs": "https://metro.com",
+        "image": "market.jpg",
+        "membership": "2",
+        "category": "grocery store"
+    },
+    {
+        "name": "Lilly Cofe",
+        "addresses": "303 Lakeside, Milwaukee",
+        "phone": "456-777",
+        "website URLs": "https://lilly.com",
+        "image": "cafe.jpg",
+        "membership": "1",
+        "category": "restrant"
+    },
+    {
+        "name": "Future Tutoring",
+        "addresses": "402 Forest Lane, Milwaukee",
+        "phone": "564-231",
+        "website URLs": "https://youngfuter.com",
+        "image": "tutoring.jpg",
+        "membership": "3",
+        "category": "tutoring"
+    },
+    {
+        "name": "Good Photo Studio",
+        "addresses": "643 Santni Ave, Milwaukee",
+        "phone": "643-212",
+        "website URLs": "https://goodphoto.com",
+        "image": "photostudio.jpg",
+        "membership": "3",
+        "category": "service"
+    }
+]
