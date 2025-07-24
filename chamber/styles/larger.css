@@ -54,4 +54,35 @@
     margin: 0.5rem;
     margin-top: 50px;
 }
+
+#spotlights {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.spotlight {
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 1rem;
+    box-shadow: 0 3px 8px #888585;
+    padding: 2rem;
+    margin: rem;
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+.spotlight:hover {
+    transform: scale(1.03);
+}
+.spotlight img {
+    width: 100%;
+    border-radius: 0.3rem;
+}
+.spotlight a {
+    display: inline-block;
+    margin-top: 0.5rem;
+}
 }

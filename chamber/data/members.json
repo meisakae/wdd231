@@ -5,7 +5,7 @@
         "phone": "555-1234",
         "website URLs": "https://bluebakery.com",
         "image": "bakery.jpg",
-        "membership": "1",
+        "membership": "member",
         "category": "restrant"
     },
     {
@@ -14,7 +14,7 @@
         "phone": "230-777",
         "website URLs": "https://greentech.com",
         "image": "tech.jpg",
-        "membership": "2",
+        "membership": "silver",
         "category": "IT"
     },
     {
@@ -23,7 +23,7 @@
         "phone": "123-444",
         "website URLs": "https://sunsine.com",
         "image": "salon.jpg",
-        "membership": "3",
+        "membership": "gold",
         "category": "buety"
     },
     {
@@ -32,7 +32,7 @@
         "phone": "444-567",
         "website URLs": "https://metro.com",
         "image": "market.jpg",
-        "membership": "2",
+        "membership": "silver",
         "category": "grocery store"
     },
     {
@@ -41,7 +41,7 @@
         "phone": "456-777",
         "website URLs": "https://lilly.com",
         "image": "cafe.jpg",
-        "membership": "1",
+        "membership": "member",
         "category": "restrant"
     },
     {
@@ -50,7 +50,7 @@
         "phone": "564-231",
         "website URLs": "https://youngfuter.com",
         "image": "tutoring.jpg",
-        "membership": "3",
+        "membership": "gold",
         "category": "tutoring"
     },
     {
@@ -59,7 +59,7 @@
         "phone": "643-212",
         "website URLs": "https://goodphoto.com",
         "image": "photostudio.jpg",
-        "membership": "3",
+        "membership": "gold",
         "category": "service"
     }
 ]
