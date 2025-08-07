@@ -255,3 +255,71 @@ form label {
     margin: 1rem;
     padding: 0.3rem;
 }
+
+/*** discover.html***/
+.discover-grid {
+  display: grid;
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card1 { grid-area: card1; }
+.card2 { grid-area: card2; }
+.card3 { grid-area: card3; }
+.card4 { grid-area: card4; }
+.card5 { grid-area: card5; }
+.card6 { grid-area: card6; }
+.card7 { grid-area: card7; }
+.card8 { grid-area: card8; }
+
+.card {
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 1rem;
+    box-shadow: 0 3px 8px #888585;
+    padding: 1rem;
+    margin: 5rem;
+    text-align: center;
+}
+
+.discover-grid h2 {
+    text-align: center;
+}
+.discover-grid address {
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+.discover-grid p {
+    margin: 0 auto;
+    padding: 0.8rem;
+}
+.discover-grid button {
+    margin: 0.3rem;
+    padding: 0.5rem;
+    display: block;
+    margin: 1rem auto 0 auto;
+}
+.card button:hover {
+  background-color: #bebaba;
+}
+.discover-grid image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+#visit-message {
+    text-align: center;
+    font-size: 2rem;
+}

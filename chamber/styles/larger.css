@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
     header, main, nav, footer {
         margin: 0 auto;
         padding: 0;
@@ -85,4 +85,12 @@
     display: inline-block;
     margin-top: 0.5rem;
 }
+.discover-grid {
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+    grid-template-columns: 1fr 1fr;
+  }
 }
