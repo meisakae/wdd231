@@ -379,4 +379,5 @@ form textarea:focus {
 
 footer {
     text-align: center;
+    min-height: 100px;
 }
