@@ -1,0 +1,25 @@
+@media only screen and (min-width: 38rem) {
+    #cardcontainer {
+    display: grid;
+        grid-template-columns: repeat(auto-fit, 
+        minmax(200px, 1fr));
+    gap: 1rem;
+    border: none;
+}
+.card-container {
+    border: 1px solid #989595;
+    border-radius: 5px;
+    margin: 35px;
+    margin-top: 0px;
+    padding: 20px;
+    display: flex0;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.card-container img {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+}
+}

@@ -7,33 +7,62 @@
     <meta name="author" content="Mei Sakae">
     <title>final Project | WDD 231</title>
 
+    <meta property="og:title" content="Welcome to Japan">
+    <meta property="og:description" content="Discover Japan's beautiful destinations, culture, and food.">
+    <meta property="og:image" content="https://example.com/images/japan-hero.webp">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
-    <script src="scripts/final.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico.svg" alt="site logo" width="24" height="24">
+    <link rel="icon" href="images/favicon.svg" type="images/svg+xml">
 </head>
 <body>
     <header>
         <h1>Omotenashi Tours</h1>
-        <button id="ham-btn" class="hamburger"></button>
+        <button id="ham-btn" class="hamburger" aria-label="Open navigation menu"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../CODE-ALONG-GEADER/index.html">Home</a></li>
             <li><a href="japan.html">About Japan</a></li>
             <li><a href="trips.html">Tours</a></li>
             <li><a href="form.html">Join Now</a></li>
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <div class="slides">
+                <img src="images/hero1.webp" alt="hero1" class="slide" width="320" height="300" loading="lazy">
+                <img src="images/hero2.webp" alt="hero2" class="slide" width="320" height="300" loading="lazy">
+                <img src="images/hero3.webp" alt="hero3" class="slide" width="320" height="300" loading="lazy">
+                <img src="images/hero4.webp" alt="hero4" class="slide" width="320" height="300" loading="lazy">
+                <img src="images/hero5.webp" alt="hero5" class="slide" width="320" height="300" loading="lazy">
+            </div>
+        </div>
 
+        <section class="about-japan">
+            <h2>Welcome to Japan</h2>
+            <div class="card-container" id="cardcontainer"></div>
+
+            <div class="btn-container">
+                <a class="cta-button" href="trips.html">Book Now</a>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <p>&copy; <span id="current-year">2025</span>
+            Mei Sakae  Japan🥢
+        </p>
+        <p>Date Last Modified
+            <span id="last-Modified"></span>
+        </p>
     </footer>
+    <script src="scripts/japan.js" defer></script>
 </body>
 </html>

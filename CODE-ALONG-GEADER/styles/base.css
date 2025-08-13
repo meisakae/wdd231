@@ -143,6 +143,7 @@ footer p {
 /****Main****/
 .layout {
     grid-template-columns: 1fr;
+
 }
 .web {
     grid-column: auto;
@@ -157,30 +158,74 @@ section img {
 }
 
 .web {
-    grid-template-columns: 1fr 2fr;
     text-align: center;
     gap: 20px;
 }
 .courses {
-    margin: 0 auto;
+    margin: 1rem auto;
     border-collapse: collapse;
     box-shadow: 0 0 10px rgb(238, 238, 156);
-}
-.courses th, .courses td {
-    border: 1px solid#999;
-    padding: 12px 15px;
-    text-align: center;
-    background-color: #fdfdfd;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 .courses th {
     background-color: #f0f0f0;
     font-weight: bold;
+    padding: 12px 5px;
+    border: 1px solid #999;
+}
+.courses td {
+    border: 1px solid #999;
+    padding: 1rem;
+    background-color: #fff;
 }
 .courses tr {
     background-color: #f9f9f9;
 }
+#wdd {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.course-card {
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.course-card:hover {
+     transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
 
-p {
+.web p {
     text-align: center;
     color: black;
+}
+
+dialog {
+  border: 1px solid rgb(0 0 0 / 10%);
+  border-radius: .25rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 3rem #777;
+  width: 90%;
+  max-width: 600px;
+}
+
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem 1rem;
+  border: 1px solid #eee;
+}
+dialog button:hover {
+  background-color: #ccc8c8;
 }

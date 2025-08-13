@@ -7,33 +7,114 @@
     <meta name="author" content="Mei Sakae">
     <title>final Project | WDD 231</title>
 
+    <meta property="og:title" content="Welcome to Japan">
+    <meta property="og:description" content="Discover Japan's beautiful destinations, culture, and food.">
+    <meta property="og:image" content="https://example.com/images/japan-hero.webp">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:type" content="website" />
+
+
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
-    <script src="scripts/final.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico.svg" alt="site logo" width="24" height="24">
+    <link rel="icon" href="images/favicon.svg" type="images/svg+xml">
 </head>
 <body>
     <header>
         <h1>Omotenashi Tours</h1>
-        <button id="ham-btn" class="hamburger"></button>
+        <button id="ham-btn" class="hamburger" aria-label="Open navigation men"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../CODE-ALONG-GEADER/index.html">Home</a></li>
             <li><a href="japan.html">About Japan</a></li>
             <li><a href="trips.html">Tours</a></li>
             <li><a href="form.html">Join Now</a></li>
         </ul>
     </nav>
     <main>
+        <div class="title">
+            <h1>Application From</h1>
+        </div>
 
+        <form method="get" action="thankyou.html" class="design">
+            <label for="fname">First Name
+                <input type="text" required name="fname" id="fname" title="Enter your First Name" autocomplete="given-name"> 
+            </label>
+
+            <label for="lname">Last Name
+                <input type="text" required name="lname" id="lname" title="Enter your Last Name" autocomplete="family-name">
+            </label>
+
+            <label for="dob">Date of Birth
+                <input type="date" name="dob" id="dob" title="Select your date of birth">
+            </label>
+
+            <label for="email">Email
+                <input type="email" required name="email" id="email" title="Enter your Email address" autocomplete="email" placeholder="Chamber@gmail.com" >
+            </label>
+
+            <label for="tel">Mobile Phone Number
+                <input type="tel" required name="tel" id="tel" title="Enter your Mobile phone number" autocomplete="tel">
+            </label>
+
+            <label for="participants">Number of Participants
+                <input type="number" required name="participants" id="participants" min="1" value="1">
+            </label>
+
+            <label for="tour-date">Preferred Tour Date
+                <input type="date" required name="tour-date" id="tour-date">
+            </label>
+
+            <fieldset>
+                <legend>Select Your Tours</legend>
+
+                <label for="history">History Tour
+                    <select id="history" name="history" required>
+                        <option value="">Select s history tour</option>
+                    </select>
+                </label>
+
+                 <label for="culture">Culture Tour
+                    <select id="culture" name="culture" required>
+                        <option value="">Select s culture tour</option>
+                    </select>
+                </label>
+
+                 <label for="food">Food Tour
+                    <select id="food" name="food" required>
+                        <option value="">Select s food tour</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label for="requests">Special  / Questions
+                <textarea name="requests" id="requests" rows="4" placeholder="Any special requests, dietary needs, or questions?"></textarea>
+            </label>
+
+            <label class="checkbox">
+                <input type="checkbox" name="agree" required>
+                I agree to the the terms and conditions.
+            </label>
+
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <div class="submit">
+                <input type="submit" value="submit">
+            </div>
+        </form>
     </main>
     <footer>
-
+        <p>&copy; <span id="current-year">2025</span>
+            Mei Sakae  Japan🥢
+        </p>
+        <p>Date Last Modified
+            <span id="last-Modified"></span>
+        </p>
     </footer>
 </body>
 </html>

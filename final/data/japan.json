@@ -1,0 +1,20 @@
+[
+  {
+    "img": "images/history.webp",
+    "alt": "History of Japan",
+    "title": "History",
+    "desc": "From ancient times to the present day, Japan has cultivated a unique culture and traditions. The Sengoku period, the Edo period, and the Meiji Restoration are just some of its fascinating historical eras."
+  },
+  {
+    "img": "images/culture.webp",
+    "alt": "Japanese Culture",
+    "title": "Culture and Tradition",
+    "desc": "Tea ceremony, flower arrangement, festivals, and kimono—Japan's beautiful culture and traditions, rooted in a long history, are still alive today."
+  },
+  {
+    "img": "images/food.webp",
+    "alt": "Japanese Food",
+    "title": "Food",
+    "desc": "Sushi, tempura, ramen, and wagashi—Japan's culinary culture is loved all over the world.Regional specialties from Hokkaido to Okinawa offer endless flavors to explore, each telling a unique story of the area."
+  }
+]
